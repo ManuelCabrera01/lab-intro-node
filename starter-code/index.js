@@ -1,5 +1,6 @@
-var SortedList = function() {};
-
+var SortedList = function(list) {
+this.list = list.sorted[''];
+};
 SortedList.prototype.add     = function(item) {}
 SortedList.prototype.get     = function(pos) {}
 SortedList.prototype.max     = function() {}
